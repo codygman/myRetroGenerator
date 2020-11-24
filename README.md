@@ -19,3 +19,4 @@ To run the generator type:
 ```
 
 You can see all the options with `./myRetroGenerator --help`
+
