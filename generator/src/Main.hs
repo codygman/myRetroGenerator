@@ -42,7 +42,7 @@ data Options
 cliParser :: Parser Options
 cliParser =
   MkOptions
-    <$> argument str (metavar "FILE" <> help "Specify the path of the myRetro markdown file")
+    <$> argument str (metavar "FILE" <> help "Specify the path of the myRetro markdown file ")
     <*> strOption
       ( long "templatePath"
           <> short 't'
